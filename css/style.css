@@ -12359,11 +12359,3 @@ fieldset:disabled .btn {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-.category-box p {
-  transition: 0.2s ease !important;
-}
-
-.category-box:hover p {
-  color: #bec76a !important;
-}
