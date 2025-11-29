@@ -8,20 +8,12 @@
     <title>bootstrap 5</title>
 
     <style>
-      .category-box p {
+      .category-item-box span {
         transition: 0.2s ease !important;
       }
 
-      .category-box div {
-        transition: 0.2s ease !important;
-      }
-
-      .category-box:hover p {
+      .category-item-box:hover span {
         color: #29a33e !important;
-      }
-
-      .category-box:hover div {
-        border-color: #29a33e !important;
       }
     </style>
   </head>
@@ -33,23 +25,12 @@
       </div>
       <div class="row gy-4">
         <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-          <a
-            href="https://www.taminfalat.com/categorylist/%D8%AF%D8%B3%D8%AA%D9%85%D8%A7%D9%84-%D9%88-%D8%AD%D9%88%D9%84%D9%87"
-            class="category-box d-flex flex-column align-items-center justify-content-center p-3 gap-3 rounded-1 text-decoration-none"
-            style="background-color: #f7f7f7"
-          >
-            <div
-              class="rounded-circle overflow-hidden"
-              style="border: 2px solid #f7f7f7"
-            >
-              <img
-                class="img-fluid"
-                src="assets/images/tissue-paper.jpg"
-                alt=""
-              />
-            </div>
-            <p class="mb-0 text-dark fw-semibold">دستمال کاغذی</p>
-          </a>
+          <div class="category-item-box text-center">
+            <a href="#" class="text-decoration-none">
+              <img class="img-fluid" src="assets/images/ghand.png" alt="" />
+              <span class="d-block text-dark fw-semibold">قند و شکر</span>
+            </a>
+          </div>
         </div>
 
         <div class="col-lg-2 col-md-3 col-sm-6 col-6">
